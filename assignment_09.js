@@ -167,8 +167,7 @@ function validateAddress(addressData) {
   if (typeof addressData.line1 != "string") {
     throw "line1 has to be string";
   }
-  // if (Student.address.line2 == undefined) {
-  //   throw "line2 is required";}
+  
   if (typeof addressData.line2 != "string") {
     throw "line2 has to be string";
   }
