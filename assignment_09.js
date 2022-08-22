@@ -36,8 +36,7 @@ function validateStudent() {
   let num1 = Student.phone;
   let text = num1.toString();
   let num2 = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-  let value = 0;
-
+  
   // Student ID validation start
   if (Student.id == undefined) {
     throw "id is required";
@@ -157,7 +156,7 @@ function validateAddress(addressData) {
   let num1 = Student.address.postcode;
   let text = num1.toString();
   let num2 = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-  let value = 0;
+  
   if (typeof addressData != "object") {
     throw "address data should be validate";
   }
